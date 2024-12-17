@@ -1,0 +1,37 @@
+.footer-content{
+    color: white;
+    /* position: absolute; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 80px;
+
+
+}
+
+.footer-content .logo{
+    width: 300px;
+    margin-top: -30px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(57, 53, 31);
+    padding: 20px 8vw;
+    padding-top: 40px;
+}
+
+.footer-left, .footer-right,.footer-middle{
+    display: flex ;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.footer-middle li, .footer-right li{
+    list-style: none;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,88 @@
+.item-image-container .item-image{
+    width: 380px;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.item{
+    /* width: 100%; */
+    margin: auto;
+    /* background-color: white; */
+    border-radius: 15px;
+    transition: 0.3s;
+    animation: fadeIn 1s;
+    box-shadow: 0px 0px 10px rgb(100, 97, 97);
+}
+
+.item-info{
+    padding: 20px;
+}
+
+.item-name{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.item-below-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-type{
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.item-price{
+    font-size: 20px;
+}
+
+.item-info hr{
+    margin-top: -5px;
+    margin-bottom: 20px;
+    height: 1px;
+    background-color: rgb(183, 196, 196);
+    /* border: none; */
+}
+
+.none{
+    display: none;
+}
+
+.add-button{
+    display: block;
+    font-size: 30px;
+    border-radius: 50px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    padding: -20px;
+    margin-left: 15px;
+    /* animation: fadeIn 0.3s; */
+}
+
+.remove-button{
+    border-radius: 50px;
+    width: 40px;
+    /* height: 40px; */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item-counter{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    animation: fadeIn 0.5s;
+}
+
+.item-counter p{
+    font-size: 25px;
+    margin: auto;
+    margin-left: 10px;
+}
+
+
+
